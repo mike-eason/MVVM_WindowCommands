@@ -1,4 +1,4 @@
-# MVVM_WindowCommands
+# Open Windows in MVVM
 Open Windows and Dialogs using an `ICommand`. This repository uses the MVVM pattern in order to separate the View and the View Model, but maintaining the ability to open Windows.
 
 For examples, check out the `WindowCommands.Demo` project in this repository.
