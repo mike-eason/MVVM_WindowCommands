@@ -1,9 +1,9 @@
-# Open Windows in MVVM
+# Open Windows and Dialogs in MVVM
 Open Windows and Dialogs using an `ICommand`. This repository uses the MVVM pattern in order to separate the View and the View Model, but maintaining the ability to open Windows.
 
 For examples, check out the `WindowCommands.Demo` project in this repository.
 
-### Open a Window in MVVM
+### Open a Window
 Firstly, create an `OpenWindowCommand` property in your view model:
 
 ```
@@ -30,7 +30,7 @@ Then, bind the `OpenWindowCommand` to a `Button` in your View:
 
 The `CommandParamter` is the `Type` of the `Window` you want to open.
 
-### Show a Dialog in MVVM
+### Show a Dialog
 A dialog is slightly different to a `Window` as a dialog will return a `bool?` result. The `OpenDialogCommand` requires an `Action<bool?>` callback method, here's an example:
 
 ```
