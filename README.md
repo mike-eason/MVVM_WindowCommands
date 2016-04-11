@@ -3,6 +3,14 @@ Open Windows and Dialogs using an `ICommand`. This repository uses the MVVM patt
 
 For examples, check out the `WindowCommands.Demo` project in this repository.
 
+## Getting Started
+
+1) Download and extract the solution.
+2) Build the solution.
+3) Add/Reference the `WindowCommands` project in your solution.
+
+Start coding.
+
 ### Open a Window
 Firstly, create an `OpenWindowCommand` property in your view model:
 
