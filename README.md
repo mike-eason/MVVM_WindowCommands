@@ -5,9 +5,9 @@ For examples, check out the `WindowCommands.Demo` project in this repository.
 
 ## Getting Started
 
-1) Download and extract the solution.
-2) Build the solution.
-3) Add/Reference the `WindowCommands` project in your solution.
+1. Download and extract the solution.
+2. Build the solution.
+3. Add/Reference the `WindowCommands` project in your solution.
 
 Start coding.
 
